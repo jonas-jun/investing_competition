@@ -33,7 +33,7 @@
 
 ### 체크포인트
 
-1. import sheet 전에 전날에 새로 홀딩한 내용을 '비' column에 표기
+1. import sheet 전에 전날에 새로 홀딩한 내용을 '비고' column에 표기
 
 2. 월요일의 경우, 지난 금요일 파일명을 일요일 파일명으로 바꿔두면 편함 (또는 import sheet 함수에 date= argument를 금요일로 바꿔줄 수도 있음)
 
