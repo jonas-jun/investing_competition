@@ -52,9 +52,9 @@ def fill(df):
 		if t1_bull[i]:
 			t1[i] = t0[i]
 
-# calculate change rates
+# calculate change rates (수익률 0:01f 에서 0:02f 집계로 수정)
 def cal_rates(df):
-	df['수익률'] = round((df[today] - df['기준가'])/df['기준가']*100, 1)
+	df['수익률'] = round((df[today] - df['기준가'])/df['기준가']*100, 2)
 
 # ordering by profit rate
 def ordering(df, standard='수익률'):
