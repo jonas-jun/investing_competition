@@ -12,6 +12,8 @@ Program to Manage Investing Competition
     4. 수익률 기준 랭킹 sorting 하여
     5. 엑셀파일로 write
 
+![stock_result.jpg](./img/stock_result.jpg)
+  
 ### 구현요소
 
     1. 전날 날짜의 엑셀 파일 (gjy_2020-07-22.xlsx)를 read (import sheet)
@@ -27,3 +29,6 @@ Program to Manage Investing Competition
     1. import sheet 전에 전날에 새로 홀딩한 내용을 '비고' column에 표기
     2. 월요일의 경우, 지난 금요일 파일명을 일요일 파일명으로 바꿔두면 편함 (또는 import sheet 함수에 date= argument를 금요일로 바꿔줄 수도 있음)
     3. 엑셀에서 read 했을 때 2020-07-23 이 2020-07-23 00:00:00 format으로 바뀌어 있음. 따라서 어제의 column을 다시 2020-07-23 형태로 바꿔주는 작업을 거쳐야 함 (함수에 추가?)
+
+### Final Format
+![result_format](./img/result_format.jpg)
