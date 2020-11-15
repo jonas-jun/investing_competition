@@ -68,5 +68,5 @@ def ordering(df, standard='수익률'):
 # export excel
 def export_sheet(df):
 	filename = 'gjy_'+str(today)+'.xlsx'
-	df.to_excel(filename)
+	df.to_excel(filename, index=False)
 
