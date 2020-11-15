@@ -1,8 +1,7 @@
 # investing_competition
-by Junmai github, 2020-08-01
+by Junmai [github](https://github.com/jonas-jun/investing_competition), 2020-08-01
 ***
 Program to Manage Investing Competition
----
 ---
 
 ### 결과물
